@@ -22,8 +22,8 @@ return {
       })
       local builtin = require("telescope.builtin")
       vim.keymap.set("n", "<leader><leader>", builtin.find_files, {})
-      vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
-          vim.keymap.set("n", "<leader>fa", function() builtin.find_files({ no_ignore = true, hidden = true })
+      vim.keymap.set("n", "<leader>fg", builtin.live_grep, { colors = never })
+      vim.keymap.set("n", "<leader>fa", function() builtin.find_files({ no_ignore = true, hidden = true })
       end)
       require("telescope").load_extension("ui-select")
     end,

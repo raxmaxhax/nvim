@@ -9,7 +9,7 @@ return {
             file = 1,
           },
         },
-      },
+      }
     })
   end,
 }
