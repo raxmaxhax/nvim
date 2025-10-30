@@ -1,4 +1,10 @@
 This is my personal Neovim configuration.
 It is a concise configuration totalling at about 6.7KB (no pun intended).
-To change the theme, edit lua/plugins/theme.lua.
-Please don't send pull requests to this repo.
+
+Installation
+Clone this repo and delete your ~/.config/nvim
+Move the repo to ~/.config
+Enter Neovim
+:Lazy to open the Lazy package manager
+This will install all the necessary packages
+To change the theme, edit lua/plugins/theme.lua
