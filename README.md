@@ -7,6 +7,7 @@
 - Live grep
 - Fuzzy finding
 - Autocomplete
+- Syntax highlighting
 - Configured Lsp
 - golf.lua for beginners trying to learn
 - lualine for an asthetically pleasing bar
@@ -15,7 +16,7 @@
 - Typst-preview for previewing .typ files
 
 ## Installation
-- Clone this repo and delete your ~/.config/nvim
+- Clone this repo and delete your ~/.config/nvim or backup
 - Move the repo to ~/.config
 - Enter Neovim
 - :Lazy to open the Lazy package manager
