@@ -1,5 +1,5 @@
 - This is my personal Neovim configuration.
-- It is a concise configuration totalling at about 6.7KB (no pun intended).
+- It is a concise configuration totalling at about 5KiB.
 
 ## Features
 - Modular
